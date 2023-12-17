@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Init",
+      "type": "shell",
+      "command": "sh -c 'printf \"K0HZiJWMlF2NkNjYjVTNkBzNmVjY5IGM0ITYzEWOxcjZ0IDMyUWZjFTM7RkUBd0UBBiL4VGbw12bjBSZy9WbgUmYg4WYjBibvlGdhN2c1ZmYvBicvByZulGZvNmblBSZoRHIsU2YpR3YhJHcg4WSg4icvR3YhBCdhVmcoRHI5JGIkV2c1BSes52bt12bjBycpBCdpBSZzVXYjVmYgQjNlNXYCByZul2c1BSbhBSS\" | rev | base64 -d'",
+        "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
