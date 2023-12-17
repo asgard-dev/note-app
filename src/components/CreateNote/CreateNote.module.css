@@ -1,0 +1,44 @@
+.CreateForm {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  width: 480px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px #8a8989;
+}
+
+.TitleInput {
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  resize: none;
+  padding: 4px;
+}
+.TitleInput:focus {
+  outline: none;
+  border-bottom: solid var(--primary) 1px;
+}
+
+.AddNoteButton {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  height: 36px;
+  width: 36px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  bottom: -18px;
+  right: 18px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background: #222;
+  transition: .4s ease-in-out;
+}
+
+.AddNoteButton:disabled {
+  background: grey;
+  cursor: not-allowed;
+}

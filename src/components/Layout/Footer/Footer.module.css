@@ -1,0 +1,26 @@
+.Footer {
+  justify-self: end;
+  height: 32px;
+  padding: 2rem 1rem;
+  background: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MadeBy {
+  color: var(--text);
+}
+
+.Socials {
+  display: flex;
+  gap: 1rem;
+}
+.Socials a {
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+}
+.Socials a > * {
+  font-size: inherit;
+}

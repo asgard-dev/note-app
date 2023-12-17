@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+:root {
+  --dark-primary: #1976d2;
+  --primary: #2196f3;
+  --primary-text: #212121;
+  --accent: #03a9f4;
+  --text: #ffffff;
+  --body: #fafafa;
+  font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--body);
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+}
+main {
+  display: flex;
+  flex-flow: column;
+}
+.notesDisplay {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px 8px;
+}
+
+@media (max-width: 767px) {
+  .notesDisplay {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  .notesDisplay {
+    grid-template-columns: 1fr 1fr 1fr;
+  } 
+}

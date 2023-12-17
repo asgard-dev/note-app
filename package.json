@@ -1,0 +1,47 @@
+{
+  "name": "notekeep",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.5",
+    "vite-tsconfig-paths": "^3.5.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "^18.8.2",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "@vitejs/plugin-react": "^2.1.0",
+    "jsdom": "^20.0.3",
+    "vitest": "^0.23.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "docker": "docker compose up"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

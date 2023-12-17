@@ -1,0 +1,44 @@
+.Note {
+  display: flex;
+  flex-flow: column;
+  background: #fff;
+  width: 15rem;
+  min-height: 4rem;
+  margin: 1rem;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 1rem; 
+  float: left;
+  border-radius: 7px;
+}
+
+.Title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Content {
+  font-size: 16px;
+  white-space: pre-wrap;
+  flex-grow: 1;
+  word-wrap: break-word;
+  margin: 8px 0;
+}
+
+.Footer {
+  display: flex;
+  justify-content: end;
+}
+
+.Button {
+  cursor: pointer;
+  background: white;
+  color: red;
+  width: 64px;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .Note {
+    width: 80%; 
+  }
+}
